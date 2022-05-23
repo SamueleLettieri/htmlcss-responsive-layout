@@ -8,6 +8,7 @@
 header{
     position: fixed;
     width: 100%;
+    top: 0;
     background-color: rgb(51, 105, 255);
     padding: 15px;
 }
@@ -27,28 +28,112 @@ header{
     font-size: 20px;
 }
 
-  /* display d */
-  .inline{
-      display: inline;
-  }
+    /* display d */
+.inline{
+   display: inline;
+}
 
-  .link{
-      color: white;
-      text-decoration: none;
-      padding-left: 10px;
-      padding-right: 10px;
-  }
+.link{
+   color: white;
+   text-decoration: none;
+   padding-left: 10px;
+   padding-right: 10px;
+}
 
-  .link-speciale{
-      background-color: white;
-      color: black;
-      border-radius: 20px;
-      padding-bottom: 5px;
-      padding-top: 5px;
-  }
+.link-speciale{
+   background-color: white;
+   color: black;
+   border-radius: 20px;
+   padding-bottom: 5px;
+   padding-top: 5px;
+}
+
+  /* main */
+main{
+  padding: 30px;
+  margin-top:100px;
+}
+
+/* prima sezione */
+.f-m{
+   display: flex;
+   flex-direction: column; 
+}
+
+.col-b{
+    background-color: lightblue;
+}
+
+.b-r{
+    border-radius: 20px;
+}
+
+.m-40{
+    margin-bottom: 40px; 
+}
+
+.card-r{
+  width: 100%;
+  padding: 20px;
+}
+
+.card-q{
+   width: 100%;
+   margin-top: 15px;
+   padding: 20px;
+}
+
+.tb{
+    color: rgb(51, 105, 255);
+}
+
+.bt-b{
+    background-color:  rgb(51, 105, 255);
+    display: inline-block;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.t-c{
+    text-align: center;
+}
+
+.iphone-img{
+    width: 200px;
+}
+
+.f-40{
+    font-size: 100px;
+}
+
+/* seconda sezione */
+
+
+
+
+
 
 @media all and (min-width: 768px){
-    
+    .f-m{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+     }
+
+     .card-r{
+        width: 60%;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+      
+      .card-q{
+         width: 29%;
+         margin-left: 20px;
+      }
+      
 }
 
 @media all and (min-width: 992px){
