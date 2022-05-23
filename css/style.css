@@ -49,9 +49,11 @@ header{
 }
 
   /* main */
-main{
+.p-30{ 
   padding: 30px;
-  margin-top:100px;
+}
+.m-100{
+    margin-top:100px;
 }
 
 /* prima sezione */
@@ -87,6 +89,7 @@ main{
     color: rgb(51, 105, 255);
 }
 
+
 .bt-b{
     background-color:  rgb(51, 105, 255);
     display: inline-block;
@@ -110,30 +113,52 @@ main{
 }
 
 /* seconda sezione */
+.c-p{
+    background-color: #9593E6
+}
 
+.f-m-c{
+    display: flex;
+    flex-direction: column; 
+ }
 
+.img-sec-sez{
+    width: 300px;
+}
 
+.tw{
+    color: white;
+}
+
+.b-tw{
+    background-color: white;
+}
+
+/* terza sezione */
 
 
 
 @media all and (min-width: 768px){
     .f-m{
-        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-     }
+    }
 
-     .card-r{
+    .card-r{
         width: 60%;
         margin-top: 10px;
         margin-left: 20px;
-      }
+    }
       
-      .card-q{
-         width: 29%;
-         margin-left: 20px;
-      }
+     .card-q{
+      width: 29%;
+      margin-left: 20px;
+    }
       
+      .f-50{
+        font-size: 50px;
+    } 
+
 }
 
 @media all and (min-width: 992px){
@@ -141,6 +166,14 @@ main{
         max-width: 1400px;
         width: 992px;
         margin: 0 auto;
+    }
+
+    .f-992{
+        display: flex;
+    }
+
+    .f-m-c{
+        flex-direction: row;
     }
 
     .visibile-992{
