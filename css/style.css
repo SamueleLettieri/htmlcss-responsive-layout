@@ -63,6 +63,10 @@ header{
    flex-direction: column; 
 }
 
+.m-0{
+    margin-bottom: -2rem;
+}
+
 .col-b{
     background-color: lightblue;
 }
@@ -90,7 +94,6 @@ header{
     color: rgb(51, 105, 255);
 }
 
-
 .bt-b{
     background-color:  rgb(51, 105, 255);
     display: inline-block;
@@ -107,6 +110,8 @@ header{
 
 .iphone-img{
     width: 200px;
+    position: relative;
+    top: 25px;
 }
 
 .f-40{
@@ -137,6 +142,19 @@ header{
 
 .b-tw{
     background-color: white;
+}
+
+.b-r-c{
+    border-radius: 100%;
+    display: inline-block;
+    padding: 15px;
+}
+.f-20{
+    font-size: 30px;
+}
+
+.t-n{
+    color: black;
 }
 
 /* terza sezione */
@@ -213,8 +231,13 @@ header{
     color: orange;
 }
 
-.color{
+.col{
     color: rgb(232, 208, 255);
+}
+
+/* footer */
+.c-n{
+    background-color: black;
 }
 
 @media all and (min-width: 768px){
