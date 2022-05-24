@@ -166,6 +166,27 @@ header{
 }
 
 /* quarta sezione */
+.card-n{
+    width: 100%;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.m-20{
+    margin-bottom: 20px;
+}
+
+.bt-p{
+    display: inline-block;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.f-70{
+    font-size: 70px;
+}
 
 
 
@@ -195,6 +216,10 @@ header{
         align-items: center;
     }
 
+    .card-n{
+        width: 45%;
+        margin: 10px;
+    }
 
 }
 
@@ -227,5 +252,10 @@ header{
 
     .bars{
         display: none;
+    }
+
+    .card-n{
+        width: 30%;
+        margin: 10px;
     }
 }
