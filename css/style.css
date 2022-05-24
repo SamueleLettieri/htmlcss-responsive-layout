@@ -6,6 +6,7 @@
 
 /* header */
 header{
+    z-index: 1;
     position: fixed;
     width: 100%;
     top: 0;
@@ -188,7 +189,33 @@ header{
     font-size: 70px;
 }
 
+/* quinta sezione */
+.p-r{
+    position: relative;
+    display: inline-block;
+}
 
+.p-a{
+    position: absolute;
+    top: 0;
+    left: 105px;
+}
+
+/* sesta sezione  */
+.dis-flex{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-o{
+    color: orange;
+}
+
+.color{
+    color: rgb(232, 208, 255);
+}
 
 @media all and (min-width: 768px){
     .f-m{
@@ -219,6 +246,14 @@ header{
     .card-n{
         width: 45%;
         margin: 10px;
+    }
+
+    .st-1{
+        width: 60%;
+    }
+
+    .st-2{
+        width: 30%;
     }
 
 }
